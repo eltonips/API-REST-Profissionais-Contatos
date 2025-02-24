@@ -21,13 +21,15 @@
 # clonar repositório
 git clone https://github.com/eltonips/API-REST-Profissionais-Contatos 
 
-# configurar Banco de dados no arquivo application.properties que está no caminho API-REST-Profissionais-Contatos\src\main\resources
-# os scripts são rodados automaticamente pelo migration em tempo de execução da aplicação
+configurar Banco de dados no arquivo application.properties que está no caminho API-REST-Profissionais-Contatos\src\main\resources
+os scripts são rodados automaticamente pelo migration em tempo de execução da aplicação
 
 # entrar na pasta do projeto back end
+
 cd API-REST-Profissionais-Contatos
 
 # executar o projeto
+
 ./mvnw spring-boot:run
 
 ## Uso
